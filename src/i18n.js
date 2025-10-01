@@ -4,12 +4,12 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   uz: {
     translation: {
-      welcome: "Hush kelibsiz bizning yangi loyihamizga",
+      welcome: "Xush kelibsiz bizning yangi loyihamizga!",
       "ro'yhatdan o'tish": "Ro'yhatdan O'tish",
       kirish: "Kirish",
-      chiqishToast: "Muvofiqayatli chiqdingiz!",
-      chiqishyakunlanmadi: "Chiqib ketish muvaffaqiyatsiz",
-      Tilmuvoffaqiyatliozgartirildi: "Til muvoffaqiyatli ozgartirildi",
+      chiqishToast: "Muvaffaqiyatli chiqildi!",
+      chiqishyakunlanmadi: "Chiqib ketilmadi",
+      Tilmuvoffaqiyatliozgartirildi: "Til muvaffaqiyatli o'zgartirildi",
     },
   },
   en: {
@@ -29,7 +29,7 @@ const resources = {
       kirish: "Войти",
       chiqishToast: "Вы успешно вышли",
       chiqishyakunlanmadi: "He удалось выйти",
-      Tilmuvoffaqiyatliozgartirildi: "Язык успешно изменён",
+      Tilmuvoffaqiyatliozgartirildi: "Язык успешно изменeн",
     },
   },
 };
