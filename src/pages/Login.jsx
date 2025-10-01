@@ -31,7 +31,7 @@ function Login() {
 
   return (
     <div className="w-full h-full grow flex justify-center items-center">
-      <div className="w-full bg-[#080a18] max-w-[600px] flex flex-col gap-5 shadow-2xl py-8 px-8">
+      <div className="w-full bg-[#040825] rounded-2xl max-w-[600px] flex flex-col gap-5 shadow-2xl py-8 px-8 mx-3">
         <h2 className="text-3xl text-center font-bold">LOGIN</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <div className="flex flex-col gap-2">

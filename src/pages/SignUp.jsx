@@ -61,7 +61,7 @@ function SignUp() {
 
   return (
     <div className="w-full h-full grow flex justify-center items-center">
-      <div className="w-full max-w-[600px] flex flex-col gap-5 shadow-2xl py-8 px-8">
+      <div className="w-full max-w-[600px] rounded-2xl bg-[#090d39] flex flex-col gap-5 shadow-2xl py-8 px-8 mx-3">
         <h2 className="text-3xl text-center font-bold">
           {t("ro'yhatdan o'tish")}
         </h2>
