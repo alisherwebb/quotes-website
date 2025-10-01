@@ -31,12 +31,12 @@ function Login() {
 
   return (
     <div className="w-full h-full grow flex justify-center items-center">
-      <div className="w-full max-w-[400px] flex flex-col gap-6 shadow-2xl py-8 px-8">
+      <div className="w-full bg-[#080a18] max-w-[600px] flex flex-col gap-5 shadow-2xl py-8 px-8">
         <h2 className="text-3xl text-center font-bold">LOGIN</h2>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <div className="flex flex-col gap-2">
             <input
-              className="input w-full"
+              className="input w-full py-"
               type="text"
               name="login"
               placeholder="Login"
@@ -55,10 +55,10 @@ function Login() {
           </Link>
           <button
             onClick={handleGoogleLogin}
-            className="btn btn-neutral"
+            className="btn btn-white bg-white text-black"
             type="submit"
           >
-            <FcGoogle />
+            <FcGoogle className="text-xl" />
             <span>Google</span>
           </button>
           <button className="btn btn-primary" type="submit">
